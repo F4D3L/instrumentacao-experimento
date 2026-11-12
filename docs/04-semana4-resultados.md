@@ -68,6 +68,7 @@ Média de 277 s por teste (cerca de 4,6 min). Estimativa para 35 testes em séri
 | 12/11/2026 | Conferências: Closure-22 (substituta de Closure-88) e Math-80 (substituta de Math-101) verificadas pelos conferentes. Ressalvas: F2 do falso-positivo do Closure-22 é inferência do patch e dos logs (cenário artificial); `cobertura_falha.txt` do Closure-22 lista a linha 107 duas vezes (`linhas_consideradas`=5 para 4 distintas), sem efeito no resultado; A5 do Math-80 diz "sem alterações em scripts/", mas `executar_teste.sh` foi alterado de forma autorizada no commit `9a5c348`; sugerido anotar "substituta de Math-101" em `observacoes`; confirmar que o grupo foi avisado das substituições (seção 8 do manual) | Substituições conferem com `amostra.csv`, `substituicoes.csv` e `registro-substituidas.csv` | Cosmético ou documental; causa das substituições (codificação ASCII do contêiner) segue como ameaça à validade (viés de seleção) |
 | 12/11/2026 | Conferências: o commit `9a5c348` alterou `scripts/` entre as ordens 1 e 2 (apontado na conferência do Time-6); o commit `3d7247c` converteu `registro.csv` de CRLF para LF (Chart-11); o commit do Chart-8 reescreveu a linha de Lang-61 só para acrescentar o newline final; o commit `1c1c3f8` mexeu só em aspas de `observacoes` | Edições do `registro.csv` e do script de execução durante a execução | Sem efeito nos logs nem nos dados medidos |
 | 12/11/2026 | Conferências: ressalvas menores: data/hora do checklist do Lang-31 em horário de Brasília (demais em Los Angeles); Math-63 com hora 11:57 no ambiente e 10:57 -08:00 no manifesto (provável erro de digitação); A6 do Lang-50 sem o valor literal de `cpu.max`/`availableProcessors` (o manifesto confirma `cpus_limite=2` e `memoria_cgroup=6442450944`); campo "Conferente" em branco nos falso-positivo (Lang-37, Closure-37, Lang-46, Chart-11, Lang-12, Time-5 e outros); fuso do contêiner entra no cálculo do test36 do Time-6, mas o relógio é mockado e o fuso é igual nas duas versões; cobertura_falha do Lang-25 e Chart-8 baseada em 1 linha | Detalhes de preenchimento e interpretação apontados pelos conferentes | Nenhum no resultado; ficam para a validação humana |
+| 12/11/2026 | Correções após a conferência cruzada: (1) criados `docs/registros/falso-positivo-Closure-75.md`, `-Closure-42.md` e `-Chart-18.md` (F1 a F5 pré-preenchidos por agente de IA, `falso_positivo` sugerido `nao` nos três) e atualizadas as colunas `falso_positivo` e `observacoes` em `dados/registro.csv`; (2) restaurados em `ambiente-Leonardo-Ceccon.md` os itens D1 a D5 dos testes 1 a 3 (Lang-46, Time-22, Math-52), copiados do commit `0ff6c4a`; (3) preenchidos A2 e A5 do Chart-17 em `ambiente-Thiago-Akimoto.md` a partir do relatório do agente feito antes do teste (o valor foi verificado na hora, mas não foi transcrito) | Divergências C5 e C1 apontadas pelas conferências | Nenhum nos dados medidos. O checklist de falso positivo dessas três falhas foi feito depois da conferência e não antes, como o manual prevê; `deteccao_confirmada` e `conferencia` continuam `pendente` até a validação humana |
 
 ## Tempos
 
@@ -134,18 +135,18 @@ A coluna `conferencia` de `dados/registro.csv` continua `pendente` nos 35 testes
 | Time-6 | Gabriel Moribe | nao |  |
 | Closure-22 | Gabriel Conti | nao |  |
 | Time-13 | Thiago Akimoto | nao |  |
-| Closure-75 | Lucas Reali | pendente | checklist `falso-positivo-Closure-75.md` não existe; avaliação preliminar do conferente indica detecção verdadeira |
-| Closure-42 | Guilherme Celente | pendente | checklist `falso-positivo-Closure-42.md` não existe; revisão do conferente concorda com `nao`/1 |
+| Closure-75 | Lucas Reali | nao | checklist criado depois da conferência (correção de processo); concorda com a avaliação preliminar do conferente |
+| Closure-42 | Guilherme Celente | nao | checklist criado depois da conferência (correção de processo); concorda com a revisão do conferente |
 | Math-25 | Gabriel Moribe | nao |  |
 | Chart-17 | Thiago Akimoto | nao |  |
-| Chart-18 | Guilherme Fadel | pendente | checklist `falso-positivo-Chart-18.md` não existe; precisa ser criado antes da confirmação |
+| Chart-18 | Guilherme Fadel | nao | checklist criado depois da conferência (correção de processo); 4 reveladores avaliados |
 | Chart-14 | Gabriel Moribe | nao |  |
 | Math-63 | Lucas Reali | nao |  |
 | Time-5 | Guilherme Celente | nao |  |
 | Chart-11 | Leonardo Ceccon | nao |  |
 | Chart-8 | Gabriel Conti | nao |  |
 
-Total: 18 detecções (todos os testes com resultado Fail). Em Closure-75, Chart-18 e Closure-42 o `falso_positivo` também segue `pendente`; nas demais o valor sugerido é `nao`.
+Total: 18 detecções (todos os testes com resultado Fail). O valor sugerido de `falso_positivo` é `nao` nas 18. Em Closure-75, Chart-18 e Closure-42 o checklist foi criado depois da conferência cruzada, então o conferente humano deve revisá-lo.
 
 ### Conferências pré-preenchidas (35 testes; 8 divergentes)
 
