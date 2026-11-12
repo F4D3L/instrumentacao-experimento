@@ -1,0 +1,244 @@
+Checking out 6a17da87 to /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203........ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 6a17da87:d6832232..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Closure-88f..................................... OK
+Running ant (compile)...................................................... FAIL
+Executed command:  cd /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203 && /defects4j/major/bin/ant -f /defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/defects4j -Dd4j.dir.projects=/defects4j/framework/projects -Dbasedir=/tmp/d4j-YaALwt/gen_tests.pl_47_1794502203 -Dbuild.compiler=javac1.7  compile 2>&1
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=1G; support was removed in 8.0
+Buildfile: /defects4j/framework/projects/defects4j.build.xml
+
+svnversion:
+
+compile:
+    [mkdir] Created dir: /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/build/classes
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/build.xml:169: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 4 source files to /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/build/classes
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Error.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Error.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Closeable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CloneNotSupportedException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CloneNotSupportedException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/NullPointerException.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/NullPointerException.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] warning: /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] /usr/lib/jvm/java-8-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+    [javac] 50 warnings
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/build.xml:175: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 357 source files to /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/build/classes
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SideEffectsAnalysis.java:46: error: unmappable character for encoding ASCII
+    [javac]  * Banning, John. ???An efficient way to find the side effects of procedure
+    [javac]                   ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SideEffectsAnalysis.java:46: error: unmappable character for encoding ASCII
+    [javac]  * Banning, John. ???An efficient way to find the side effects of procedure
+    [javac]                    ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SideEffectsAnalysis.java:46: error: unmappable character for encoding ASCII
+    [javac]  * Banning, John. ???An efficient way to find the side effects of procedure
+    [javac]                     ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SideEffectsAnalysis.java:47: error: unmappable character for encoding ASCII
+    [javac]  *      calls and the aliases of variables.??? POPL ???79.
+    [javac]                                            ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SideEffectsAnalysis.java:47: error: unmappable character for encoding ASCII
+    [javac]  *      calls and the aliases of variables.??? POPL ???79.
+    [javac]                                             ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SideEffectsAnalysis.java:47: error: unmappable character for encoding ASCII
+    [javac]  *      calls and the aliases of variables.??? POPL ???79.
+    [javac]                                              ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SideEffectsAnalysis.java:47: error: unmappable character for encoding ASCII
+    [javac]  *      calls and the aliases of variables.??? POPL ???79.
+    [javac]                                                     ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SideEffectsAnalysis.java:47: error: unmappable character for encoding ASCII
+    [javac]  *      calls and the aliases of variables.??? POPL ???79.
+    [javac]                                                      ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SideEffectsAnalysis.java:47: error: unmappable character for encoding ASCII
+    [javac]  *      calls and the aliases of variables.??? POPL ???79.
+    [javac]                                                       ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:248: error: unmappable character for encoding ASCII
+    [javac]    * 3.    file: ???out.js???
+    [javac]                  ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:248: error: unmappable character for encoding ASCII
+    [javac]    * 3.    file: ???out.js???
+    [javac]                   ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:248: error: unmappable character for encoding ASCII
+    [javac]    * 3.    file: ???out.js???
+    [javac]                    ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:248: error: unmappable character for encoding ASCII
+    [javac]    * 3.    file: ???out.js???
+    [javac]                           ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:248: error: unmappable character for encoding ASCII
+    [javac]    * 3.    file: ???out.js???
+    [javac]                            ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:248: error: unmappable character for encoding ASCII
+    [javac]    * 3.    file: ???out.js???
+    [javac]                             ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:267: error: unmappable character for encoding ASCII
+    [javac]    * Line 5: ???lineMaps??? field is a JSON array, where each entry represents a
+    [javac]              ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:267: error: unmappable character for encoding ASCII
+    [javac]    * Line 5: ???lineMaps??? field is a JSON array, where each entry represents a
+    [javac]               ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:267: error: unmappable character for encoding ASCII
+    [javac]    * Line 5: ???lineMaps??? field is a JSON array, where each entry represents a
+    [javac]                ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:267: error: unmappable character for encoding ASCII
+    [javac]    * Line 5: ???lineMaps??? field is a JSON array, where each entry represents a
+    [javac]                         ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:267: error: unmappable character for encoding ASCII
+    [javac]    * Line 5: ???lineMaps??? field is a JSON array, where each entry represents a
+    [javac]                          ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:267: error: unmappable character for encoding ASCII
+    [javac]    * Line 5: ???lineMaps??? field is a JSON array, where each entry represents a
+    [javac]                           ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:272: error: unmappable character for encoding ASCII
+    [javac]    *     server or removing repeated prefix values in the ???sources??? entry.
+    [javac]                                                           ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:272: error: unmappable character for encoding ASCII
+    [javac]    *     server or removing repeated prefix values in the ???sources??? entry.
+    [javac]                                                            ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:272: error: unmappable character for encoding ASCII
+    [javac]    *     server or removing repeated prefix values in the ???sources??? entry.
+    [javac]                                                             ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:272: error: unmappable character for encoding ASCII
+    [javac]    *     server or removing repeated prefix values in the ???sources??? entry.
+    [javac]                                                                     ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:272: error: unmappable character for encoding ASCII
+    [javac]    *     server or removing repeated prefix values in the ???sources??? entry.
+    [javac]                                                                      ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:272: error: unmappable character for encoding ASCII
+    [javac]    *     server or removing repeated prefix values in the ???sources??? entry.
+    [javac]                                                                       ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:273: error: unmappable character for encoding ASCII
+    [javac]    * Line 10: A list of sources used by the ???mappings??? entry relative to the
+    [javac]                                             ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:273: error: unmappable character for encoding ASCII
+    [javac]    * Line 10: A list of sources used by the ???mappings??? entry relative to the
+    [javac]                                              ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:273: error: unmappable character for encoding ASCII
+    [javac]    * Line 10: A list of sources used by the ???mappings??? entry relative to the
+    [javac]                                               ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:273: error: unmappable character for encoding ASCII
+    [javac]    * Line 10: A list of sources used by the ???mappings??? entry relative to the
+    [javac]                                                        ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:273: error: unmappable character for encoding ASCII
+    [javac]    * Line 10: A list of sources used by the ???mappings??? entry relative to the
+    [javac]                                                         ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:273: error: unmappable character for encoding ASCII
+    [javac]    * Line 10: A list of sources used by the ???mappings??? entry relative to the
+    [javac]                                                          ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:275: error: unmappable character for encoding ASCII
+    [javac]    * Line 11: A list of symbol names used by the ???mapping??? entry.  This list
+    [javac]                                                  ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:275: error: unmappable character for encoding ASCII
+    [javac]    * Line 11: A list of symbol names used by the ???mapping??? entry.  This list
+    [javac]                                                   ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:275: error: unmappable character for encoding ASCII
+    [javac]    * Line 11: A list of symbol names used by the ???mapping??? entry.  This list
+    [javac]                                                    ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:275: error: unmappable character for encoding ASCII
+    [javac]    * Line 11: A list of symbol names used by the ???mapping??? entry.  This list
+    [javac]                                                            ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:275: error: unmappable character for encoding ASCII
+    [javac]    * Line 11: A list of symbol names used by the ???mapping??? entry.  This list
+    [javac]                                                             ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:275: error: unmappable character for encoding ASCII
+    [javac]    * Line 11: A list of symbol names used by the ???mapping??? entry.  This list
+    [javac]                                                              ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:284: error: unmappable character for encoding ASCII
+    [javac]    *     This can either be an string or index into the ???names??? field.
+    [javac]                                                         ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:284: error: unmappable character for encoding ASCII
+    [javac]    *     This can either be an string or index into the ???names??? field.
+    [javac]                                                          ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:284: error: unmappable character for encoding ASCII
+    [javac]    *     This can either be an string or index into the ???names??? field.
+    [javac]                                                           ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:284: error: unmappable character for encoding ASCII
+    [javac]    *     This can either be an string or index into the ???names??? field.
+    [javac]                                                                 ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:284: error: unmappable character for encoding ASCII
+    [javac]    *     This can either be an string or index into the ???names??? field.
+    [javac]                                                                  ^
+    [javac] /tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/src/com/google/javascript/jscomp/SourceMap2.java:284: error: unmappable character for encoding ASCII
+    [javac]    *     This can either be an string or index into the ???names??? field.
+    [javac]                                                                   ^
+    [javac] 45 errors
+
+BUILD FAILED
+/tmp/d4j-YaALwt/gen_tests.pl_47_1794502203/build.xml:175: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
+Cannot compile! at /defects4j/framework/bin/gen_tests.pl line 230.
