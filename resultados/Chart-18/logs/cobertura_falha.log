@@ -1,0 +1,13 @@
+cobertura_falha=total
+linhas_consideradas=10
+linhas_cobertas=10
+linha=source/org/jfree/data/DefaultKeyedValues.java:318 hits=4
+linha=source/org/jfree/data/DefaultKeyedValues.java:319 hits=4
+linha=source/org/jfree/data/DefaultKeyedValues.java:333 hits=1
+linha=source/org/jfree/data/DefaultKeyedValues2D.java:455 hits=4
+linha=source/org/jfree/data/DefaultKeyedValues2D.java:456 hits=1
+linha=source/org/jfree/data/DefaultKeyedValues2D.java:458 hits=3
+linha=source/org/jfree/data/DefaultKeyedValues2D.java:459 hits=1
+linha=source/org/jfree/data/DefaultKeyedValues2D.java:464 hits=3
+linha=source/org/jfree/data/DefaultKeyedValues2D.java:465 hits=3
+linha=source/org/jfree/data/DefaultKeyedValues2D.java:468 hits=3
