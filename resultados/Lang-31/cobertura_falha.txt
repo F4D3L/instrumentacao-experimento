@@ -1,0 +1,9 @@
+cobertura_falha=parcial
+linhas_consideradas=6
+linhas_cobertas=4
+linha=src/main/java/org/apache/commons/lang3/StringUtils.java:1446 hits=4
+linha=src/main/java/org/apache/commons/lang3/StringUtils.java:1447 hits=4
+linha=src/main/java/org/apache/commons/lang3/StringUtils.java:1452 hits=3
+linha=src/main/java/org/apache/commons/lang3/StringUtils.java:1454 hits=0
+linha=src/main/java/org/apache/commons/lang3/StringUtils.java:1455 hits=0
+linha=src/main/java/org/apache/commons/lang3/StringUtils.java:1464 hits=1
