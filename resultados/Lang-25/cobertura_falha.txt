@@ -1,0 +1,4 @@
+cobertura_falha=total
+linhas_consideradas=1
+linhas_cobertas=1
+linha=src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java:130 hits=1
