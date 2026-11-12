@@ -1,0 +1,2 @@
+pesquisador,ordem,falha_original,falha_substituta,posicao_reserva,semente_evosuite,conferente,motivo,data
+Guilherme Celente,2,Math-101,Math-80,8,29410720,Leonardo Ceccon,o projeto não compila no ambiente (javac com codificação ASCII: unmappable character),12/11/2026

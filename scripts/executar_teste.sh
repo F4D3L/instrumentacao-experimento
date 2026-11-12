@@ -24,13 +24,18 @@ else
   [ $# -eq 2 ] || { echo "uso: $0 \"<Pesquisador>\" <Projeto-ID>" >&2; exit 1; }
   PESQ="$1"; FALHA="$2"
   LINHA="$(python3 - "$PESQ" "$FALHA" <<'EOF'
-import csv, sys
+import csv, os, sys
 for r in csv.DictReader(open("dados/sorteio/atribuicao.csv")):
     if r["pesquisador"] == sys.argv[1] and r["falha"] == sys.argv[2]:
         print(r["ordem"], r["semente_evosuite"], r["conferente"], sep="|")
+# Regra de substituição (manual, seção 8): a reserva herda ordem, semente e conferente da original
+if os.path.isfile("dados/sorteio/substituicoes.csv"):
+    for r in csv.DictReader(open("dados/sorteio/substituicoes.csv")):
+        if r["pesquisador"] == sys.argv[1] and r["falha_substituta"] == sys.argv[2]:
+            print(r["ordem"], r["semente_evosuite"], r["conferente"], sep="|")
 EOF
 )"
-  [ -n "$LINHA" ] || { echo "ERRO: $FALHA não está atribuída a '$PESQ' em dados/sorteio/atribuicao.csv" >&2; exit 1; }
+  [ -n "$LINHA" ] || { echo "ERRO: $FALHA não está atribuída a '$PESQ' em dados/sorteio/atribuicao.csv nem em substituicoes.csv" >&2; exit 1; }
   IFS="|" read -r ORDEM SEMENTE CONFERENTE <<< "$LINHA"
   OUT="$RAIZ/resultados/$FALHA"
   REGISTRO="$RAIZ/dados/registro.csv"
