@@ -1,0 +1,5 @@
+cobertura_falha=total
+linhas_consideradas=2
+linhas_cobertas=2
+linha=source/org/jfree/chart/axis/Axis.java:1192 hits=9
+linha=source/org/jfree/chart/axis/Axis.java:1200 hits=12

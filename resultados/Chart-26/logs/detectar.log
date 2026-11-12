@@ -1,0 +1,32 @@
+Extract test suite......................................................... Executing test suite: Chart-26f-evosuite.1.tar.bz2
+OK
+Checking out 103 to /tmp/d4j-ifgMfw/run_bug_detection.pl_1032_1794507965/V_ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 103:102............................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Chart-26f....................................... OK
+Running ant (compile)...................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
+Checking out 103 to /tmp/d4j-ifgMfw/run_bug_detection.pl_1032_1794507965/V_ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Excluding broken/flaky tests............................................... OK
+Excluding broken/flaky tests............................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 103:102............................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Chart-26b....................................... OK
+Running ant (compile)...................................................... OK
+Running ant (compile.gen.tests)............................................ OK
+Running ant (run.gen.tests)................................................ OK
