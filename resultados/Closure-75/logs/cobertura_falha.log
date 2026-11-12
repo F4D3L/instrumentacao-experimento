@@ -1,0 +1,6 @@
+cobertura_falha=total
+linhas_consideradas=3
+linhas_cobertas=3
+linha=src/com/google/javascript/jscomp/NodeUtil.java:313 hits=11
+linha=src/com/google/javascript/jscomp/NodeUtil.java:315 hits=1
+linha=src/com/google/javascript/jscomp/NodeUtil.java:378 hits=1
