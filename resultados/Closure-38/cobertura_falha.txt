@@ -1,0 +1,4 @@
+cobertura_falha=nenhuma
+linhas_consideradas=1
+linhas_cobertas=0
+linha=src/com/google/javascript/jscomp/CodeConsumer.java:245 hits=0
