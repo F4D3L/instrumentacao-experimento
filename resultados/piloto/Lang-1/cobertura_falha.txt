@@ -1,0 +1,10 @@
+cobertura_falha=total
+linhas_consideradas=7
+linhas_cobertas=7
+linha=src/main/java/org/apache/commons/lang3/math/NumberUtils.java:467 hits=6
+linha=src/main/java/org/apache/commons/lang3/math/NumberUtils.java:468 hits=7
+linha=src/main/java/org/apache/commons/lang3/math/NumberUtils.java:469 hits=6
+linha=src/main/java/org/apache/commons/lang3/math/NumberUtils.java:470 hits=6
+linha=src/main/java/org/apache/commons/lang3/math/NumberUtils.java:471 hits=1
+linha=src/main/java/org/apache/commons/lang3/math/NumberUtils.java:477 hits=6
+linha=src/main/java/org/apache/commons/lang3/math/NumberUtils.java:480 hits=4

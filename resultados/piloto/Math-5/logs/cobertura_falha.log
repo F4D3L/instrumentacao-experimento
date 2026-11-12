@@ -1,0 +1,4 @@
+cobertura_falha=nenhuma
+linhas_consideradas=1
+linhas_cobertas=0
+linha=src/main/java/org/apache/commons/math3/complex/Complex.java:305 hits=0
