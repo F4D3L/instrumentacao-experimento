@@ -1,0 +1,11 @@
+cobertura_falha=parcial
+linhas_consideradas=8
+linhas_cobertas=7
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:365 hits=5
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:368 hits=3
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:369 hits=3
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:370 hits=2
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:372 hits=1
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:375 hits=1
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:376 hits=0
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:378 hits=2
