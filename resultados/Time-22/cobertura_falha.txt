@@ -1,0 +1,9 @@
+cobertura_falha=total
+linhas_consideradas=6
+linhas_cobertas=6
+linha=src/main/java/org/joda/time/base/BasePeriod.java:222 hits=1
+linha=src/main/java/org/joda/time/base/BasePeriod.java:224 hits=1
+linha=src/main/java/org/joda/time/base/BasePeriod.java:225 hits=1
+linha=src/main/java/org/joda/time/base/BasePeriod.java:226 hits=1
+linha=src/main/java/org/joda/time/base/BasePeriod.java:227 hits=1
+linha=src/main/java/org/joda/time/base/BasePeriod.java:228 hits=1
