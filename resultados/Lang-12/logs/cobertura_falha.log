@@ -1,0 +1,8 @@
+cobertura_falha=total
+linhas_consideradas=5
+linhas_cobertas=5
+linha=src/main/java/org/apache/commons/lang3/RandomStringUtils.java:230 hits=16
+linha=src/main/java/org/apache/commons/lang3/RandomStringUtils.java:231 hits=1
+linha=src/main/java/org/apache/commons/lang3/RandomStringUtils.java:235 hits=6
+linha=src/main/java/org/apache/commons/lang3/RandomStringUtils.java:236 hits=1
+linha=src/main/java/org/apache/commons/lang3/RandomStringUtils.java:247 hits=15

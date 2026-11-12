@@ -1,0 +1,19 @@
+data_hora: 2026-11-12T07:07:15-08:00
+pesquisador: Thiago Akimoto
+falha: Lang-12
+ordem: 1
+semente_evosuite: 728680798
+id_imagem: sha256:45031972753e1f1906530e802b0714d06bbd13e2ec516bb455dc30b3499d446e
+cpus_limite: 2
+memoria_limite: 6g
+nproc_visto: 10
+memoria_cgroup: 6442450944
+kernel: Linux 7.0.14-linuxkit x86_64
+tz: America/Los_Angeles
+java: openjdk version "1.8.0_452"
+defects4j_commit: a83e47921152721569cb95d6d7b91c4be277d940
+evosuite_sha256: 939c0c762d20872b410ecfd79fc2ac77e13e984031dca3f45f78fa44ba627ef7
+evosuite_config_sha256: 7349236dc06a8861d1dd05231d10180141ab4da41c2184cd624b7ac586cd3d92
+python: Python 3.8.10
+classes_modificadas: org.apache.commons.lang3.RandomStringUtils 
+orcamento_total_s: 360
