@@ -1,0 +1,7 @@
+cobertura_falha=total
+linhas_consideradas=4
+linhas_cobertas=4
+linha=src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java:344 hits=12
+linha=src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java:345 hits=12
+linha=src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java:354 hits=3
+linha=src/main/java/org/apache/commons/math/geometry/euclidean/threed/Rotation.java:360 hits=2
