@@ -45,3 +45,31 @@ Obrigatório:
 2. **Checklist do ambiente experimental**, descrevendo detalhadamente as ferramentas utilizadas, configurações necessárias e evidências avaliadas antes de executar cada teste do experimento.
 
 Adicionalmente, conforme o escopo: os questionários, formulários, scripts, sistemas, roteiros ou checklists que serão empregados no processo de teste e medição.
+
+## Semana 4: Resultados e conclusões
+
+Vencimento: qui, 19/11/2026 22:00
+
+Na reunião, devem ser apresentados os resultados de **estatísticas descritivas e inferenciais**. O experimento não precisa realizar todos os tratamentos relevantes: muitas vezes, o objetivo é comparar com um benchmark ou com o resultado de outros experimentos indicados na introdução do projeto.
+
+Entregáveis:
+
+1. **Relatório de até 2 páginas** indicando:
+   - Quais resultados foram obtidos;
+   - Se a hipótese foi apoiada ou rejeitada pelas evidências;
+   - Quais limitações foram identificadas no estudo;
+   - Quais implicações os resultados possuem para a Engenharia de Software.
+2. **Planilha** que consolide os resultados de todos os testes.
+
+## Somativa 04: Execução e Resultado do Experimento
+
+Vencimento: **ter, 24/11/2026 23:59** · 35 pontos · tentativas ilimitadas
+
+Entregar as **evidências da realização dos testes** (planilha com os dados tabulados, ou o conjunto de instrumentos de coleta de dados preenchidos, a depender do experimento).
+
+Junto, um **breve relatório de no máximo 2 páginas** que inclua:
+
+- **Estatísticas descritivas** das variáveis dependentes coletadas (por tratamento, no caso de experimentos com mais de um tratamento);
+- **Estatísticas inferenciais**, com um teste adequado aos dados e às hipóteses investigadas. Além dos testes de média (teste T), variância (teste F) e independência (teste chi-2), podem ser usados outros testes, justificando a escolha para os dados e a hipótese;
+- **Conclusão da hipótese original**, apoiada ou rejeitada pelas evidências, discutindo os dados com os fundamentos que orientaram a construção da hipótese;
+- Pelo menos **uma limitação** decorrente de uma ameaça à validade do estudo e **uma implicação** dos resultados para a prática de Engenharia de Software.
