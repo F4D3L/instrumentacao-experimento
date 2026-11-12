@@ -1,0 +1,5 @@
+cobertura_falha=parcial
+linhas_consideradas=2
+linhas_cobertas=1
+linha=src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java:240 hits=26
+linha=src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java:253 hits=0

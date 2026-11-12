@@ -1,0 +1,13 @@
+######  Start test generation  /defects4j/framework/bin/gen_tests.pl: 2026-11-12 10:51:13  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Math
+ -v 65f
+ -n 1
+ -b 360
+ -c /defects4j/framework/projects/Math/modified_classes/65.src
+ -s 1098537342
+Created test suite archive: Math-65f-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /experimento/resultados/Math-65/suites/Math/evosuite/1
+######  End test generation  /defects4j/framework/bin/gen_tests.pl: 2026-11-12 10:54:20  ######
