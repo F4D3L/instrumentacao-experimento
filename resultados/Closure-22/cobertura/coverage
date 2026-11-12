@@ -1,0 +1,2 @@
+project_id,version_id,test_suite_source,test_id,lines_total,lines_covered,branches_total,branches_covered
+Closure,22f,evosuite,1,67,50,38,33
