@@ -1,0 +1,11 @@
+cobertura_falha=total
+linhas_consideradas=8
+linhas_cobertas=8
+linha=src/java/org/apache/commons/lang/time/FastDateFormat.java:285 hits=3
+linha=src/java/org/apache/commons/lang/time/FastDateFormat.java:286 hits=2
+linha=src/java/org/apache/commons/lang/time/FastDateFormat.java:289 hits=3
+linha=src/java/org/apache/commons/lang/time/FastDateFormat.java:294 hits=3
+linha=src/java/org/apache/commons/lang/time/FastDateFormat.java:463 hits=4
+linha=src/java/org/apache/commons/lang/time/FastDateFormat.java:464 hits=3
+linha=src/java/org/apache/commons/lang/time/FastDateFormat.java:466 hits=4
+linha=src/java/org/apache/commons/lang/time/FastDateFormat.java:471 hits=4
