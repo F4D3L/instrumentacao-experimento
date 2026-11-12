@@ -1,0 +1,8 @@
+######  Start fixing tests  /defects4j/framework/util/fix_test_suite.pl: 2026-11-12 09:22:40  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Time-20f-evosuite.1.tar.bz2
+org.joda.time.format.DateTimeFormatterBuilder_ESTest::test121
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /experimento/resultados/Time-20/suites/Time/evosuite/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /defects4j/framework/util/fix_test_suite.pl: 2026-11-12 09:24:01  ######
