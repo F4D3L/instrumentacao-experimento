@@ -1,0 +1,13 @@
+######  Start test generation  /defects4j/framework/bin/gen_tests.pl: 2026-11-12 08:43:02  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Time
+ -v 6f
+ -n 1
+ -b 360
+ -c /defects4j/framework/projects/Time/modified_classes/6.src
+ -s 179721715
+Created test suite archive: Time-6f-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /experimento/resultados/Time-6/suites/Time/evosuite/1
+######  End test generation  /defects4j/framework/bin/gen_tests.pl: 2026-11-12 08:46:13  ######

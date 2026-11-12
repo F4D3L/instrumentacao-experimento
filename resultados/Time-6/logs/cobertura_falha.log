@@ -1,0 +1,22 @@
+cobertura_falha=parcial
+linhas_consideradas=19
+linhas_cobertas=11
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:196 hits=73
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:197 hits=73
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:198 hits=1
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:983 hits=1
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:984 hits=0
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:985 hits=0
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:986 hits=0
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:988 hits=0
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:989 hits=1
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:990 hits=1
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:991 hits=1
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:1016 hits=2
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:1017 hits=0
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:1018 hits=0
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:1019 hits=0
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:1021 hits=0
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:1022 hits=2
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:1023 hits=2
+linha=src/main/java/org/joda/time/chrono/GJChronology.java:1024 hits=1
