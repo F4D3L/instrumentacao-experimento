@@ -1,0 +1,11 @@
+cobertura_falha=total
+linhas_consideradas=8
+linhas_cobertas=8
+linha=source/org/jfree/chart/plot/CategoryPlot.java:2166 hits=5
+linha=source/org/jfree/chart/plot/CategoryPlot.java:2167 hits=2
+linha=source/org/jfree/chart/plot/CategoryPlot.java:2451 hits=2
+linha=source/org/jfree/chart/plot/CategoryPlot.java:2452 hits=1
+linha=source/org/jfree/chart/plot/XYPlot.java:2293 hits=5
+linha=source/org/jfree/chart/plot/XYPlot.java:2294 hits=2
+linha=source/org/jfree/chart/plot/XYPlot.java:2532 hits=5
+linha=source/org/jfree/chart/plot/XYPlot.java:2533 hits=2
