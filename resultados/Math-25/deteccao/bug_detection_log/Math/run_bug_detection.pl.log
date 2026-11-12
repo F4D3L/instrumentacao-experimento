@@ -1,0 +1,4 @@
+######  Start executing test suites  /defects4j/framework/bin/run_bug_detection.pl: 2026-11-12 09:45:19  ######
+ - Executing test suite: Math-25f-evosuite.1.tar.bz2
+ - Found 1 failing tests on buggy version: Math-25f-evosuite.1.tar.bz2
+######  End executing test suites  /defects4j/framework/bin/run_bug_detection.pl: 2026-11-12 09:46:00  ######
