@@ -61,7 +61,130 @@ Média de 277 s por teste (cerca de 4,6 min). Estimativa para 35 testes em séri
 | 12/11/2026 | `dados/registro.csv`: as linhas Lang-50 e Closure-37 tinham texto com vírgulas sem aspas na coluna `observacoes` (29 e 32 campos, em vez de 28). Os demais 27 campos estavam intactos; a coluna foi reparada (commit `1c1c3f8`). Na correção, o arquivo chegou a ser truncado por um erro do script de reparo e foi restaurado do git antes de qualquer outra mudança | Edição manual do CSV pelos agentes, fora do módulo `csv` | Nenhum nos dados. A partir daqui, o CSV só é editado com o módulo `csv` do Python |
 | 12/11/2026 | Arquivos `.tmp_file_needed_by_mock_of_FileHandler*`, criados pelas suítes geradas na raiz do repositório (diretório de trabalho do contêiner), ficam fora dos commits por teste e são commitados uma única vez no fim, junto com `evosuite-report/` | Decisão do usuário | Nenhum no tratamento |
 | 12/11/2026 | **Regra de substituição aplicada (Closure-88 → Closure-22).** A etapa `gerar` do Closure-88 (Gabriel Conti, ordem 2) terminou com código 1 em 7 s: o `javac` do Defects4J rejeitou caracteres não ASCII (45 ocorrências de `unmappable character for encoding ASCII`) e o build terminou em `Cannot compile!`. O EvoSuite não foi executado. Substituída pela próxima reserva de Closure (Closure-22, posição 8), que herda ordem 2, semente 1061168894 e conferente Thiago Akimoto. A pasta `resultados/Closure-88` foi preservada e a linha foi para `dados/registro-substituidas.csv` | Impedimento técnico alheio à ferramenta ("o projeto não compila no ambiente", seção 8 do manual); mesma causa de Math-101; decisão do usuário | Ambiente inalterado. Closure-22 roda na sua vez com `scripts/executar_teste.sh "Gabriel Conti" Closure-22` |
+| 12/11/2026 | Conferências: Closure-75, Chart-18 e Closure-42 detectaram a falha (Fail), mas o checklist `docs/registros/falso-positivo-<Falha>.md` não existe; `falso_positivo` e `deteccao_confirmada` seguem `pendente` | Execução centralizada não criou o checklist F1 a F5 dessas três detecções | Conferência divergente (C5). O executor precisa criar o checklist antes da confirmação humana |
+| 12/11/2026 | Conferências: checklist de ambiente com campos em branco: D1 a D5 (Lang-46, Time-22, Math-52; preenchidos em commits anteriores e apagados em `ec039a7`) e A2/A5 (Chart-17, teste 3) | Preenchimento incompleto do `ambiente-<Pesquisador>.md` | Divergência de preenchimento (C1). O manifesto mostra a imagem correta no Chart-17. Recuperar os valores do histórico do git na validação humana |
+| 12/11/2026 | Conferências: Time-23 com `testes_finais`=52 (correto 50). Mesmo artefato do contador `@Test` (stub vazio mais código comentado) também em Time-20 (192 > 191-1), Math-63 (188 > 187) e já descrito em Lang-37 e Closure-37; `observacoes` vazio em Time-20 | Contador de `registrar.py` conta a substring `@Test` | Divergência C4 em Time-23. Sem efeito em `resultado_d4j`, reveladores ou cobertura. Se o grupo decidir que `testes_finais` não entra na conferência, passa a ok |
+| 12/11/2026 | Conferências: Math-25 não está em `substituicoes.csv` e compilou normalmente no pipeline (código 0 em todas as etapas), contrariando o diagnóstico prévio de que não compilaria. Permaneceu no experimento | Conferente (Gabriel Conti) verificou que o pipeline compilou e rodou tudo | Nenhum; sem motivo para substituir |
+| 12/11/2026 | Conferências: Closure-22 (substituta de Closure-88) e Math-80 (substituta de Math-101) verificadas pelos conferentes. Ressalvas: F2 do falso-positivo do Closure-22 é inferência do patch e dos logs (cenário artificial); `cobertura_falha.txt` do Closure-22 lista a linha 107 duas vezes (`linhas_consideradas`=5 para 4 distintas), sem efeito no resultado; A5 do Math-80 diz "sem alterações em scripts/", mas `executar_teste.sh` foi alterado de forma autorizada no commit `9a5c348`; sugerido anotar "substituta de Math-101" em `observacoes`; confirmar que o grupo foi avisado das substituições (seção 8 do manual) | Substituições conferem com `amostra.csv`, `substituicoes.csv` e `registro-substituidas.csv` | Cosmético ou documental; causa das substituições (codificação ASCII do contêiner) segue como ameaça à validade (viés de seleção) |
+| 12/11/2026 | Conferências: o commit `9a5c348` alterou `scripts/` entre as ordens 1 e 2 (apontado na conferência do Time-6); o commit `3d7247c` converteu `registro.csv` de CRLF para LF (Chart-11); o commit do Chart-8 reescreveu a linha de Lang-61 só para acrescentar o newline final; o commit `1c1c3f8` mexeu só em aspas de `observacoes` | Edições do `registro.csv` e do script de execução durante a execução | Sem efeito nos logs nem nos dados medidos |
+| 12/11/2026 | Conferências: ressalvas menores: data/hora do checklist do Lang-31 em horário de Brasília (demais em Los Angeles); Math-63 com hora 11:57 no ambiente e 10:57 -08:00 no manifesto (provável erro de digitação); A6 do Lang-50 sem o valor literal de `cpu.max`/`availableProcessors` (o manifesto confirma `cpus_limite=2` e `memoria_cgroup=6442450944`); campo "Conferente" em branco nos falso-positivo (Lang-37, Closure-37, Lang-46, Chart-11, Lang-12, Time-5 e outros); fuso do contêiner entra no cálculo do test36 do Time-6, mas o relógio é mockado e o fuso é igual nas duas versões; cobertura_falha do Lang-25 e Chart-8 baseada em 1 linha | Detalhes de preenchimento e interpretação apontados pelos conferentes | Nenhum no resultado; ficam para a validação humana |
 
 ## Tempos
 
-_(a preencher ao final da execução)_
+Fonte: coluna `tempo_total_s` de `dados/registro.csv` (35 testes). Paralelismo usado: 1 (um teste por vez, em série).
+
+| Ordem | Falha | Pesquisador | tempo_total_s |
+|---|---|---|---|
+| 1 | Lang-31 | Lucas Reali | 286 s |
+| 1 | Lang-37 | Guilherme Fadel | 296 s |
+| 1 | Lang-50 | Guilherme Celente | 268 s |
+| 1 | Lang-46 | Leonardo Ceccon | 263 s |
+| 1 | Closure-32 | Gabriel Moribe | 339 s |
+| 1 | Math-45 | Gabriel Conti | 147 s |
+| 1 | Lang-12 | Thiago Akimoto | 134 s |
+| 2 | Chart-2 | Lucas Reali | 291 s |
+| 2 | Closure-37 | Guilherme Fadel | 563 s |
+| 2 | Math-80 | Guilherme Celente | 285 s |
+| 2 | Time-22 | Leonardo Ceccon | 288 s |
+| 2 | Time-6 | Gabriel Moribe | 304 s |
+| 2 | Closure-22 | Gabriel Conti | 323 s |
+| 2 | Time-13 | Thiago Akimoto | 302 s |
+| 3 | Closure-75 | Lucas Reali | 417 s |
+| 3 | Time-20 | Guilherme Fadel | 374 s |
+| 3 | Closure-42 | Guilherme Celente | 359 s |
+| 3 | Math-52 | Leonardo Ceccon | 360 s |
+| 3 | Math-25 | Gabriel Moribe | 315 s |
+| 3 | Time-23 | Gabriel Conti | 342 s |
+| 3 | Chart-17 | Thiago Akimoto | 361 s |
+| 4 | Time-18 | Lucas Reali | 322 s |
+| 4 | Chart-18 | Guilherme Fadel | 485 s |
+| 4 | Chart-26 | Guilherme Celente | 325 s |
+| 4 | Closure-38 | Leonardo Ceccon | 324 s |
+| 4 | Chart-14 | Gabriel Moribe | 576 s |
+| 4 | Lang-25 | Gabriel Conti | 80 s |
+| 4 | Math-65 | Thiago Akimoto | 286 s |
+| 5 | Math-63 | Lucas Reali | 376 s |
+| 5 | Math-9 | Guilherme Fadel | 105 s |
+| 5 | Time-5 | Guilherme Celente | 207 s |
+| 5 | Chart-11 | Leonardo Ceccon | 128 s |
+| 5 | Lang-61 | Gabriel Moribe | 278 s |
+| 5 | Chart-8 | Gabriel Conti | 275 s |
+| 5 | Closure-108 | Thiago Akimoto | 329 s |
+
+- Média: 306.1 s (cerca de 5.1 min)
+- Mediana: 304 s
+- Mínimo: 80 s (Lang-25)
+- Máximo: 576 s (Chart-14)
+- Total: 10713 s (cerca de 2.98 h), soma dos tempos dos testes, sem os intervalos entre eles.
+- Paralelismo: 1 (em série). A média do piloto era 277 s; a estimativa de 9695 s ficou abaixo do total real porque falhas com mais classes têm orçamento maior (360 s por classe).
+
+## Pendências de validação humana
+
+A coluna `conferencia` de `dados/registro.csv` continua `pendente` nos 35 testes, e `deteccao_confirmada` continua `pendente` nas detecções. Nada abaixo foi validado por humano; as conferências foram pré-preenchidas por agente de IA e os relatórios estão em `docs/registros/conferencia-<Executor>.md`.
+
+### Detecções com `deteccao_confirmada=pendente` (18)
+
+| Falha | Pesquisador | falso_positivo sugerido | Observação |
+|---|---|---|---|
+| Lang-37 | Guilherme Fadel | nao |  |
+| Lang-46 | Leonardo Ceccon | nao |  |
+| Math-45 | Gabriel Conti | nao |  |
+| Lang-12 | Thiago Akimoto | nao |  |
+| Closure-37 | Guilherme Fadel | nao |  |
+| Time-6 | Gabriel Moribe | nao |  |
+| Closure-22 | Gabriel Conti | nao |  |
+| Time-13 | Thiago Akimoto | nao |  |
+| Closure-75 | Lucas Reali | pendente | checklist `falso-positivo-Closure-75.md` não existe; avaliação preliminar do conferente indica detecção verdadeira |
+| Closure-42 | Guilherme Celente | pendente | checklist `falso-positivo-Closure-42.md` não existe; revisão do conferente concorda com `nao`/1 |
+| Math-25 | Gabriel Moribe | nao |  |
+| Chart-17 | Thiago Akimoto | nao |  |
+| Chart-18 | Guilherme Fadel | pendente | checklist `falso-positivo-Chart-18.md` não existe; precisa ser criado antes da confirmação |
+| Chart-14 | Gabriel Moribe | nao |  |
+| Math-63 | Lucas Reali | nao |  |
+| Time-5 | Guilherme Celente | nao |  |
+| Chart-11 | Leonardo Ceccon | nao |  |
+| Chart-8 | Gabriel Conti | nao |  |
+
+Total: 18 detecções (todos os testes com resultado Fail). Em Closure-75, Chart-18 e Closure-42 o `falso_positivo` também segue `pendente`; nas demais o valor sugerido é `nao`.
+
+### Conferências pré-preenchidas (35 testes; 8 divergentes)
+
+| Executor | Conferente | Falha | Resultado sugerido |
+|---|---|---|---|
+| Lucas Reali | Guilherme Fadel (pré-conferência por agente de IA) | Lang-31 | ok |
+| Lucas Reali | Guilherme Fadel (pré-conferência por agente de IA) | Chart-2 | ok |
+| Lucas Reali | Guilherme Fadel (pré-conferência por agente de IA) | Closure-75 | divergente:C5 |
+| Lucas Reali | Guilherme Fadel (pré-conferência por agente de IA) | Time-18 | ok |
+| Lucas Reali | Guilherme Fadel (pré-conferência por agente de IA) | Math-63 | ok |
+| Guilherme Fadel | Guilherme Celente | Lang-37 | ok |
+| Guilherme Fadel | Guilherme Celente | Closure-37 | ok |
+| Guilherme Fadel | Guilherme Celente | Time-20 | ok |
+| Guilherme Fadel | Guilherme Celente | Chart-18 | divergente:C5 |
+| Guilherme Fadel | Guilherme Celente | Math-9 | ok |
+| Guilherme Celente | Leonardo Ceccon | Lang-50 | ok |
+| Guilherme Celente | Leonardo Ceccon | Math-80 | ok |
+| Guilherme Celente | Leonardo Ceccon | Closure-42 | divergente:C5 |
+| Guilherme Celente | Leonardo Ceccon | Chart-26 | ok |
+| Guilherme Celente | Leonardo Ceccon | Time-5 | ok |
+| Leonardo Ceccon | Gabriel Moribe | Lang-46 | divergente:C1 |
+| Leonardo Ceccon | Gabriel Moribe | Time-22 | divergente:C1 |
+| Leonardo Ceccon | Gabriel Moribe | Math-52 | divergente:C1 |
+| Leonardo Ceccon | Gabriel Moribe | Closure-38 | ok |
+| Leonardo Ceccon | Gabriel Moribe | Chart-11 | ok |
+| Gabriel Moribe | Gabriel Conti | Closure-32 | ok |
+| Gabriel Moribe | Gabriel Conti | Time-6 | ok |
+| Gabriel Moribe | Gabriel Conti | Math-25 | ok |
+| Gabriel Moribe | Gabriel Conti | Chart-14 | ok |
+| Gabriel Moribe | Gabriel Conti | Lang-61 | ok |
+| Gabriel Conti | Thiago Akimoto | Math-45 | ok |
+| Gabriel Conti | Thiago Akimoto | Closure-22 | ok |
+| Gabriel Conti | Thiago Akimoto | Time-23 | divergente:C4 |
+| Gabriel Conti | Thiago Akimoto | Lang-25 | ok |
+| Gabriel Conti | Thiago Akimoto | Chart-8 | ok |
+| Thiago Akimoto | Lucas Reali | Lang-12 | ok |
+| Thiago Akimoto | Lucas Reali | Time-13 | ok |
+| Thiago Akimoto | Lucas Reali | Chart-17 | divergente:C1 |
+| Thiago Akimoto | Lucas Reali | Math-65 | ok |
+| Thiago Akimoto | Lucas Reali | Closure-108 | ok |
+
+Divergências sugeridas: C5 (falso positivo sem checklist) em Closure-75, Chart-18 e Closure-42; C1 (ambiente) em Lang-46, Time-22, Math-52 (D1 a D5 em branco no `ambiente-Leonardo-Ceccon.md` atual) e Chart-17 (A2 e A5 em branco); C4 em Time-23 (`testes_finais`=52, correto 50).
