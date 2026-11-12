@@ -1,0 +1,8 @@
+######  Start fixing tests  /defects4j/framework/util/fix_test_suite.pl: 2026-11-12 06:38:38  ######
+- Found 1 test archive(s)
+ - Removing 1 broken test method(s): Lang-37f-evosuite.1.tar.bz2
+org.apache.commons.lang3.ArrayUtils_ESTest::test345
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 1 (see /experimento/resultados/Lang-37/suites/Lang/evosuite/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /defects4j/framework/util/fix_test_suite.pl: 2026-11-12 06:39:18  ######

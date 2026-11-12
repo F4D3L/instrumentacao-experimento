@@ -1,0 +1,10 @@
+cobertura_falha=parcial
+linhas_consideradas=7
+linhas_cobertas=5
+linha=src/java/org/apache/commons/lang3/ArrayUtils.java:2963 hits=1
+linha=src/java/org/apache/commons/lang3/ArrayUtils.java:2964 hits=1
+linha=src/java/org/apache/commons/lang3/ArrayUtils.java:2966 hits=1
+linha=src/java/org/apache/commons/lang3/ArrayUtils.java:2967 hits=1
+linha=src/java/org/apache/commons/lang3/ArrayUtils.java:2968 hits=1
+linha=src/java/org/apache/commons/lang3/ArrayUtils.java:2970 hits=0
+linha=src/java/org/apache/commons/lang3/ArrayUtils.java:2971 hits=0
