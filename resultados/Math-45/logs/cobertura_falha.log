@@ -1,0 +1,7 @@
+cobertura_falha=total
+linhas_consideradas=4
+linhas_cobertas=4
+linha=src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java:50 hits=29
+linha=src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java:51 hits=29
+linha=src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java:52 hits=29
+linha=src/main/java/org/apache/commons/math/linear/OpenMapRealMatrix.java:53 hits=1
