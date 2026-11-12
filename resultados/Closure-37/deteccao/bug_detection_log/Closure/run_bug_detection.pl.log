@@ -1,0 +1,4 @@
+######  Start executing test suites  /defects4j/framework/bin/run_bug_detection.pl: 2026-11-12 07:25:52  ######
+ - Executing test suite: Closure-37f-evosuite.1.tar.bz2
+ - Found 1 failing tests on buggy version: Closure-37f-evosuite.1.tar.bz2
+######  End executing test suites  /defects4j/framework/bin/run_bug_detection.pl: 2026-11-12 07:26:39  ######

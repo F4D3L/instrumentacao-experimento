@@ -1,0 +1,11 @@
+######  Start fixing tests  /defects4j/framework/util/fix_test_suite.pl: 2026-11-12 07:24:30  ######
+- Found 1 test archive(s)
+ - Removing 4 broken test method(s): Closure-37f-evosuite.1.tar.bz2
+com.google.javascript.jscomp.NodeTraversal_ESTest::test10
+com.google.javascript.jscomp.NodeTraversal_ESTest::test00
+com.google.javascript.jscomp.NodeTraversal_ESTest::test25
+com.google.javascript.jscomp.NodeTraversal_ESTest::test09
+Number of uncompilable test classes: 0
+Number of uncompilable tests: 0
+Number of failing tests: 4 (see /experimento/resultados/Closure-37/suites/Closure/evosuite/1/fix_test_suite.run.log file for more information)
+######  End fixing tests  /defects4j/framework/util/fix_test_suite.pl: 2026-11-12 07:25:51  ######

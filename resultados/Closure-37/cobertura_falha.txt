@@ -1,0 +1,7 @@
+cobertura_falha=parcial
+linhas_consideradas=4
+linhas_cobertas=3
+linha=src/com/google/javascript/jscomp/NodeTraversal.java:542 hits=2
+linha=src/com/google/javascript/jscomp/parsing/IRFactory.java:667 hits=3
+linha=src/com/google/javascript/jscomp/parsing/IRFactory.java:671 hits=1
+linha=src/com/google/javascript/jscomp/parsing/IRFactory.java:672 hits=0
