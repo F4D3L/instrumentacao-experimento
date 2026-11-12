@@ -1,0 +1,2 @@
+cobertura_falha=nenhuma
+observacao=sem relatório de cobertura (suíte vazia ou não executada)
