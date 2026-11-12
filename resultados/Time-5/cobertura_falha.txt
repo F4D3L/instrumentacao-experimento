@@ -1,0 +1,14 @@
+cobertura_falha=total
+linhas_consideradas=11
+linhas_cobertas=11
+linha=src/main/java/org/joda/time/Period.java:1628 hits=3
+linha=src/main/java/org/joda/time/Period.java:1629 hits=3
+linha=src/main/java/org/joda/time/Period.java:1630 hits=1
+linha=src/main/java/org/joda/time/Period.java:1631 hits=1
+linha=src/main/java/org/joda/time/Period.java:1632 hits=1
+linha=src/main/java/org/joda/time/Period.java:1634 hits=3
+linha=src/main/java/org/joda/time/Period.java:1635 hits=1
+linha=src/main/java/org/joda/time/Period.java:1636 hits=1
+linha=src/main/java/org/joda/time/Period.java:1637 hits=1
+linha=src/main/java/org/joda/time/Period.java:1639 hits=3
+linha=src/main/java/org/joda/time/Period.java:1640 hits=1

@@ -1,0 +1,4 @@
+######  Start executing test suites  /defects4j/framework/bin/run_bug_detection.pl: 2026-11-12 11:11:39  ######
+ - Executing test suite: Time-5f-evosuite.1.tar.bz2
+ - Found 2 failing tests on buggy version: Time-5f-evosuite.1.tar.bz2
+######  End executing test suites  /defects4j/framework/bin/run_bug_detection.pl: 2026-11-12 11:12:16  ######
