@@ -1,0 +1,16 @@
+cobertura_falha=nenhuma
+linhas_consideradas=13
+linhas_cobertas=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1358 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1365 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1384 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1392 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1393 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1394 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1395 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1396 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1397 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1399 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1400 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1402 hits=0
+linha=src/com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1429 hits=0
