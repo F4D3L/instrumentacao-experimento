@@ -1,0 +1,13 @@
+######  Start test generation  /defects4j/framework/bin/gen_tests.pl: 2026-11-12 11:25:04  ######
+Mode: regression
+Parameters:
+ -g evosuite
+ -p Chart
+ -v 8f
+ -n 1
+ -b 360
+ -c /defects4j/framework/projects/Chart/modified_classes/8.src
+ -s 606828139
+Created test suite archive: Chart-8f-evosuite.1.tar.bz2
+Moved test suite archive to output directory: /experimento/resultados/Chart-8/suites/Chart/evosuite/1
+######  End test generation  /defects4j/framework/bin/gen_tests.pl: 2026-11-12 11:28:11  ######
