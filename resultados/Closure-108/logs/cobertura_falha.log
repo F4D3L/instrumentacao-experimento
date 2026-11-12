@@ -1,0 +1,7 @@
+cobertura_falha=parcial
+linhas_consideradas=4
+linhas_cobertas=1
+linha=src/com/google/javascript/jscomp/ScopedAliases.java:259 hits=4
+linha=src/com/google/javascript/jscomp/ScopedAliases.java:317 hits=0
+linha=src/com/google/javascript/jscomp/ScopedAliases.java:434 hits=0
+linha=src/com/google/javascript/jscomp/ScopedAliases.java:584 hits=0
