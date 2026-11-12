@@ -1,0 +1,5 @@
+cobertura_falha=total
+linhas_consideradas=2
+linhas_cobertas=2
+linha=src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java:87 hits=1
+linha=src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java:88 hits=1
