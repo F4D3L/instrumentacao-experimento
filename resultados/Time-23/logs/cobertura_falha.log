@@ -1,0 +1,15 @@
+cobertura_falha=total
+linhas_consideradas=12
+linhas_cobertas=12
+linha=src/main/java/org/joda/time/DateTimeZone.java:564 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:565 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:566 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:567 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:568 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:577 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:580 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:582 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:584 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:585 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:587 hits=5
+linha=src/main/java/org/joda/time/DateTimeZone.java:589 hits=5
