@@ -1,0 +1,12 @@
+cobertura_falha=total
+linhas_consideradas=9
+linhas_cobertas=9
+linha=src/java/org/apache/commons/lang/StringEscapeUtils.java:86 hits=4
+linha=src/java/org/apache/commons/lang/StringEscapeUtils.java:102 hits=1
+linha=src/java/org/apache/commons/lang/StringEscapeUtils.java:127 hits=2
+linha=src/java/org/apache/commons/lang/StringEscapeUtils.java:143 hits=1
+linha=src/java/org/apache/commons/lang/StringEscapeUtils.java:155 hits=6
+linha=src/java/org/apache/commons/lang/StringEscapeUtils.java:160 hits=5
+linha=src/java/org/apache/commons/lang/StringEscapeUtils.java:180 hits=7
+linha=src/java/org/apache/commons/lang/StringEscapeUtils.java:245 hits=2
+linha=src/java/org/apache/commons/lang/StringEscapeUtils.java:248 hits=2
