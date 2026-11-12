@@ -1,0 +1,10 @@
+data_hora: 2026-11-12T06:27:53
+semente: 20261030
+piloto (excluídas): Lang-1 Math-5
+python: 3.8.10
+criterio: IDs ativos <= {'Chart': 26, 'Closure': 133, 'Lang': 65, 'Math': 106, 'Time': 27}
+elegiveis Chart: 26
+elegiveis Closure: 131
+elegiveis Lang: 63
+elegiveis Math: 105
+elegiveis Time: 26
