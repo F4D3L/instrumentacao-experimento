@@ -5,10 +5,10 @@ Grupo de 7: Lucas Reali, Guilherme Fadel, Guilherme Celente, Leonardo Ceccon, Ga
 
 ## Para o agente: leia nesta ordem
 
-1. [`00-enunciados.md`](00-enunciados.md): o que o professor pediu em cada semana (texto do enunciado).
+1. [`00-enunciados.md`](00-enunciados.md): o que o professor pediu em cada semana (texto do enunciado), incluindo a **Semana 4** (resultados e conclusões, 19/11/2026) e a **Somativa 04** (execução e resultado do experimento, 24/11/2026).
 2. [`01-entrega-semana1.md`](01-entrega-semana1.md): hipótese e escopo (entregue em 29/10/2026).
 3. [`02-entrega-semana2.md`](02-entrega-semana2.md): planejamento do experimento (entregue em 04/11/2026). **É o documento mais recente e prevalece sobre a semana 1.**
-4. [`03-semana3-instrumentacao.md`](03-semana3-instrumentacao.md): o que precisa ser produzido agora, o que a semana 2 já prometeu e o que ainda está em aberto.
+4. [`03-semana3-instrumentacao.md`](03-semana3-instrumentacao.md): instrumentação (entrega de 11/11/2026), o que a semana 2 prometeu, o que ainda está em aberto e as decisões tomadas.
 
 Regras:
 
