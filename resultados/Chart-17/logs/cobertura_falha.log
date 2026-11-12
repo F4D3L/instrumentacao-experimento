@@ -1,0 +1,5 @@
+cobertura_falha=total
+linhas_consideradas=2
+linhas_cobertas=2
+linha=source/org/jfree/data/time/TimeSeries.java:857 hits=3
+linha=source/org/jfree/data/time/TimeSeries.java:858 hits=3
