@@ -1,0 +1,15 @@
+cobertura_falha=total
+linhas_consideradas=12
+linhas_cobertas=12
+linha=source/org/jfree/data/general/DatasetUtilities.java:755 hits=5
+linha=source/org/jfree/data/general/DatasetUtilities.java:758 hits=5
+linha=source/org/jfree/data/general/DatasetUtilities.java:759 hits=1
+linha=source/org/jfree/data/general/DatasetUtilities.java:760 hits=1
+linha=source/org/jfree/data/general/DatasetUtilities.java:764 hits=1
+linha=source/org/jfree/data/general/DatasetUtilities.java:767 hits=1
+linha=source/org/jfree/data/general/DatasetUtilities.java:1249 hits=2026
+linha=source/org/jfree/data/general/DatasetUtilities.java:1252 hits=2026
+linha=source/org/jfree/data/general/DatasetUtilities.java:1253 hits=2025
+linha=source/org/jfree/data/general/DatasetUtilities.java:1254 hits=2025
+linha=source/org/jfree/data/general/DatasetUtilities.java:1258 hits=2025
+linha=source/org/jfree/data/general/DatasetUtilities.java:1261 hits=2025
