@@ -1,0 +1,7 @@
+cobertura_falha=total
+linhas_consideradas=4
+linhas_cobertas=4
+linha=src/main/java/org/joda/time/format/PeriodFormatterBuilder.java:1098 hits=10
+linha=src/main/java/org/joda/time/format/PeriodFormatterBuilder.java:1133 hits=14
+linha=src/main/java/org/joda/time/format/PeriodFormatterBuilder.java:1143 hits=4
+linha=src/main/java/org/joda/time/format/PeriodFormatterBuilder.java:1144 hits=1
