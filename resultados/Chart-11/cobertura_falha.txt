@@ -1,0 +1,4 @@
+cobertura_falha=total
+linhas_consideradas=1
+linhas_cobertas=1
+linha=source/org/jfree/chart/util/ShapeUtilities.java:275 hits=6
